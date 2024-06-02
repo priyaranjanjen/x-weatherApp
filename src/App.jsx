@@ -56,7 +56,7 @@ function App() {
         </form>
       </div>
       {loading ? (
-        <p>Loading Data...</p>
+        <p>Loading data...</p>
       ) : (
         weatherData && (
           <div className='weather-cards'>
