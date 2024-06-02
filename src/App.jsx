@@ -4,7 +4,7 @@ import './App.css';
 
 function Card({ title, body, sign }) {
   return (
-    <div className='card'>
+    <div className='weather-card'>
       <h3>{title}</h3>
       <h4>{body}{sign}</h4>
     </div>
@@ -56,10 +56,10 @@ function App() {
         </form>
       </div>
       {loading ? (
-        <h4 className='loading'>Loading Data...</h4>
+        <p>Loading Data...</p>
       ) : (
         weatherData && (
-          <div className='data'>
+          <div className='weather-cards'>
             <Card title="Temperature" body={weatherData.current.temp_c} sign="°C" />
             <Card title="Humidity" body={weatherData.current.humidity} sign="%" />
             <Card title="Condition" body={weatherData.current.condition.text} />

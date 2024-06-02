@@ -54,7 +54,7 @@
  border-radius: 15px;
 }
 
-h4{
+h4,p{
   color: gray;
 }
 
@@ -83,7 +83,7 @@ button{
   color: white;
 }
 
-.data{
+.weather-cards{
   display: flex;
   justify-content: space-between;
   gap: 20px;
