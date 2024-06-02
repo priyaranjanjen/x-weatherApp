@@ -28,7 +28,7 @@ function App() {
       setWeatherData(finalData);
       setLoading(false); // End loading
     } catch (error) {
-      alert("Failed to fetch weather data: " + error.message);
+      alert("Failed to fetch weather data");
       setLoading(false); // End loading
     }
   };
