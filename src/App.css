@@ -40,3 +40,51 @@
 .read-the-docs {
   color: #888;
 } */
+
+.card{
+  border: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ font-family: sans-serif;
+ width: 200px;
+ border-radius: 15px;
+}
+
+h4{
+  color: gray;
+}
+
+.weatherApp{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: gray;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  background-color:rgb(44, 155, 32);
+  border-radius: 5px;
+  color: white;
+}
+
+.data{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
